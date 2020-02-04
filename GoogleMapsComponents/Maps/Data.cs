@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Microsoft.JSInterop;
+using OneOf;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.JSInterop;
-using OneOf;
 
 namespace GoogleMapsComponents.Maps
 {

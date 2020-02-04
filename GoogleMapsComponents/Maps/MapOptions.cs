@@ -1,11 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace GoogleMapsComponents.Maps
+﻿namespace GoogleMapsComponents.Maps
 {
     /// <summary>
     /// MapOptions object used to define the properties that can be set on a Map.
@@ -168,7 +161,7 @@ namespace GoogleMapsComponents.Maps
         /// If false, disables zooming on the map using a mouse scroll wheel. 
         /// The scrollwheel is enabled by default.
         /// </summary>
-        public bool? Scrollwheel  { get; set; }
+        public bool? Scrollwheel { get; set; }
 
         /// <summary>
         /// A StreetViewPanorama to display when the Street View pegman is dropped on the map. 

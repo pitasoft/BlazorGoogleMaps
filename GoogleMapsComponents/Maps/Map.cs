@@ -1,11 +1,9 @@
 ﻿using GoogleMapsComponents.Maps.Coordinates;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
-using Newtonsoft.Json;
 using OneOf;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace GoogleMapsComponents.Maps

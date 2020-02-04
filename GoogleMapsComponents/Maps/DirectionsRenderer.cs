@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.JSInterop;
+﻿using Microsoft.JSInterop;
 using Newtonsoft.Json;
+using System;
+using System.Threading.Tasks;
 
 namespace GoogleMapsComponents.Maps
 {
@@ -45,7 +43,7 @@ namespace GoogleMapsComponents.Maps
                 Console.WriteLine("Error parsing DirectionsResult Object. Message: " + e.Message);
                 return null;
             }
-            
+
         }
 
         public Task<Map> GetMap()

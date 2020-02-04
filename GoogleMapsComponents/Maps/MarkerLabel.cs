@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace GoogleMapsComponents.Maps
+﻿namespace GoogleMapsComponents.Maps
 {
     /// <summary>
     /// These options specify the appearance of a marker label. A marker label is a single character of text which will appear inside the marker. 

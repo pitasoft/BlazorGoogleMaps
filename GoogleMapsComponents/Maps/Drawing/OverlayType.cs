@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace GoogleMapsComponents.Maps.Drawing
+﻿namespace GoogleMapsComponents.Maps.Drawing
 {
     /// <summary>
     /// The types of overlay that may be created by the DrawingManager. 

@@ -1,12 +1,8 @@
-﻿using Microsoft.JSInterop;
-using GoogleMapsComponents.Maps;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GoogleMapsComponents.Maps;
 using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
+using Microsoft.JSInterop;
+using System;
+using System.Threading.Tasks;
 
 namespace GoogleMapsComponents
 {

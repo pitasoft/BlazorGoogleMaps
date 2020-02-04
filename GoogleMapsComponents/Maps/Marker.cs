@@ -1,10 +1,6 @@
 ﻿using Microsoft.JSInterop;
-using Newtonsoft.Json.Linq;
 using OneOf;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace GoogleMapsComponents.Maps

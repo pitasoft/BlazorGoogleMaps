@@ -1,11 +1,7 @@
-﻿using GoogleMapsComponents.Maps;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using OneOf;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GoogleMapsComponents
 {
@@ -18,7 +14,7 @@ namespace GoogleMapsComponents
 
         public override void WriteJson(JsonWriter writer, IOneOf value, JsonSerializer serializer)
         {
-            if(value.Value == null
+            if (value.Value == null
                 || value.Value is string
                 || value.Value is int
                 || value.Value is long
